@@ -1,0 +1,133 @@
+/* Space out content a bit */
+html,body {
+    background-color: #191919;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    height:100%;
+}
+
+
+
+@media (max-width: 767px) {
+    .rightCol .card, .leftCol .card {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+}
+
+.mdl-layout__header {
+  background-color: #020101;
+  height:84px!important;
+}
+
+.mdl-layout__header-row {
+      padding: 0 40px 0 30px!important;
+      height:84px!important;
+}
+.mdl-layout-title{
+  font-family: 'Consolas', sans-serif!important;
+  margin-left: 15px;
+  font-size: 24px;
+  font-weight: 100 !important;
+  /*font-stretch:ultra-condensed;*/
+  color: #D2D7D3;
+
+}
+
+.mdl-chip__contact {
+  padding-left: 1px;
+  margin-left: 5px;
+}
+.dlp-logo-image{
+  height: 30px;
+  width: 150px;
+}
+
+.mdl-textfield {
+  width: 100%!important;
+}
+.mdl-button--raised.mdl-button--white-colored {
+    background: #E67E22;
+    color: #fff;
+    margin: 10px;
+    min-width: 180px;
+
+}
+
+.demo-charts {
+
+  text-align: right;
+  border-radius: 10px;
+
+  opacity: 0.7;
+    filter: alpha(opacity=70);
+
+}
+
+.mdl-textfield__input {
+    color: #95A5A6 !important;
+        font-family: 'Consolas','Courier New'!important;
+  /*font-family: 'Roboto', sans-serif ;*/
+  font-size: 16px;
+  font-weight: 200 !important;
+  font-stretch:ultra-expanded !important;
+}
+
+.mdl-chip__contact {
+  font-size: 14px !important;
+}
+
+.mdl-chip__text_1 {
+  font-family: 'Consolas','Courier New'!important;
+  font-size: 18px;
+  color: #D2D7D3;
+}
+
+.mdl-chip__text {
+  font-family: 'Consolas','Courier New'!important;
+  font-size: 16px;
+  color: #22313F;
+}
+
+.mdl-data-table {
+  margin-top: 20px;
+  text-align: left !important;
+  min-width: 100% !important;
+  background-color: #BDC3C7;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+
+.mdl-data-table th {
+    text-align: left;
+    vertical-align: bottom;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0;
+    height: 48px;
+    font-size: 16px;
+    color: rgba(0,0,0,.54);
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.mdl-data-table td {
+  border:0px!important;
+  color: #2C3E50 !important;
+      font-family: 'Consolas','Courier New'!important;
+/*font-family: 'Roboto', sans-serif ;*/
+font-size: 14px;
+font-weight: 300 !important;
+font-stretch:ultra-expanded !important;
+text-align: left !important;
+
+}

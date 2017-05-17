@@ -1,0 +1,42 @@
+{
+  "name": "google_dlp_demo",
+  "version": "1.0.0",
+  "description": "A Nodejs angular webapp to demo Google DLP API using keyfilename for authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hradhakrishnan/Google-DLP-NodejsAngular-Demo.git"
+  },
+  "keywords": [
+    "Data Loss Prevention",
+    "DLP",
+    "Google DLP API",
+    "Google",
+    "API"
+  ],
+  "author": "Hariprasad Radhakrishnan",
+  "contributors": [
+    {
+      "name": "Hari",
+      "email": "hradhakrishnan@gmail.com"
+    }],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hradhakrishnan/Google-DLP-NodejsAngular-Demo/issues"
+  },
+  "homepage": "https://github.com/hradhakrishnan/Google-DLP-NodejsAngular-Demo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config": "^1.26.1",
+    "express": "^4.15.2",
+    "google-auto-auth": "^0.7.0",
+    "path": "^0.12.7",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "util": "^0.10.3",
+    "yargs": "^8.0.1"
+  }
+}
