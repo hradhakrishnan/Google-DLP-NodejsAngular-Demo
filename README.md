@@ -1,11 +1,11 @@
 # Google-DLP-NodejsAngular-Demo
 A Nodejs angular webapp to demo Google Dlp API using keyfilename for authentication
 
-Once you have downloaded are pulled the Project
+Once you have the Project downloaded
 
 Run "npm intall" to install dependencies
 
-Update yourkey.json with the service account key credentials
+Update yourkey.json with the service account key credentials from your Google Cloud account + Project
 
 Run "node index.js" to start the demo.
 
